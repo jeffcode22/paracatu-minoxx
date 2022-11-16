@@ -165,7 +165,7 @@ header .entrega-container {
 }
 .resultados-section .feedback-container p {
   text-align: center;
-  padding: 4rem 1rem 4rem 1rem;
+  padding: 4rem 3rem 4rem 3rem;
   font: 1.5rem "Poppins", sans-serif;
   font-weight: 600;
   color: #FFFFFF;
@@ -234,8 +234,9 @@ header .entrega-container {
 }
 
 .dermaroller-section .derma-bg {
-  background: linear-gradient(90deg, rgb(45, 69, 102) 0%, rgb(100, 164, 255) 77%);
+  background: linear-gradient(90deg, rgb(45, 69, 102) 0%, rgb(100, 164, 255) 86%);
   height: 1.5rem;
+  z-index: 2;
 }
 .dermaroller-section .derma-title {
   font: 2.5rem "Poppins", sans-serif;
