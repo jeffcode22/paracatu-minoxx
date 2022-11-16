@@ -1,0 +1,63 @@
+.como-usar-section{
+    background-color: $white-f;
+    .title-cm-container{
+        text-align: center;
+        .cm-bg{
+            background: rgb(100,164,255);
+            background: linear-gradient(97deg, rgba(100,164,255,1) 0%, rgba(45,69,102,1) 77%);
+            height: 1.5rem;
+        }
+        .cm-title{
+            color: $fifth-blue;
+            font: 2.5rem $main-font;
+            font-weight: 700;
+            padding-top: 1rem;
+        }
+        .cm-subtitle{
+            color: $second-blue;
+            font: 1.5rem $main-font;
+            padding: 1rem 0 3rem 0;
+            font-weight: 600;
+        }
+    }
+    .cm-img{
+        display: flex;
+    img{
+        margin: 0 auto;
+        padding-bottom: .5rem;
+        }
+    }
+
+    .p-kirk-container{
+        text-align: center;
+        font: 1rem $main-font;
+        font-weight: 700;
+        color: $third-blue;
+    }
+
+    .cm-text-container{
+        text-align: center;
+        padding: 2rem 1.5rem 4rem 1.5rem;
+        color: $black-0;
+        font: 1rem $main-font;
+        font-weight: 400;
+        .cm-text-1{
+            padding-bottom: 1rem;
+        }
+        .cm-text-2{
+            padding-bottom: 1rem;
+        }
+    }
+    .cm-subtitle-2{
+        font: 1.75rem $main-font;
+        font-weight: 600;
+        color: $second-blue;
+        text-align: center;
+    }
+    .cm-subtitle-3{
+        font: 1rem $main-font;
+        font-weight: 600;
+        padding: 1rem 1rem 8rem 1rem;
+        text-align: center;
+    }
+}

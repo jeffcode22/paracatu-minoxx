@@ -1,0 +1,72 @@
+.roda-footer-section{
+    .rodape-container{
+        display: flex;
+        .rodape-item1{
+            background-color: $fifth-blue;
+            width: 20vw;
+            height: 1rem;
+        }
+        .rodape-item2{
+            background-color: $forth-blue;
+            width: 20vw;
+            height: 1rem;
+        }
+        .rodape-item3{
+            background-color: $third-blue;
+            width: 20vw;
+            height: 1rem;
+        }
+        .rodape-item4{
+            background-color: $second-blue;
+            width: 20vw;
+            height: 1rem;
+        }
+        .rodape-item5{
+            background-color: $main-blue;
+            width: 20vw;
+            height: 1rem;
+        }
+        margin-bottom: 3px;
+    }
+
+    .footer-container{
+        display: flex;
+        background-color: $fifth-blue;
+        height: 10rem;
+        justify-content: space-around;
+        align-items: center;
+        .logo-footer-container{
+            .logo-footer{
+                width:25vw;
+        }
+        }
+        .contato-footer-container{
+            padding-bottom: 1rem;
+            .insta-container{
+                display: flex;
+                .insta-icon{
+                    width: 2rem;
+                    padding-right: 1rem;
+                }
+                p{
+                    font: 1.25rem 'Inter', sans-serif;
+                    color: $white-f;
+                    font-weight: 400;
+                }
+            }
+            .telefone-container{
+                padding-top: 1rem;
+                display: flex;
+                .telefone-icon{
+                    width: 2rem;
+                    padding-right: 1rem;
+                }
+                p{
+                    font: 1.25rem 'Inter', sans-serif;
+                    color: $white-f;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
