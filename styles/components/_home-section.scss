@@ -43,3 +43,49 @@
 }
 
 
+
+@media only screen and (min-width: 500px){
+.home-section{
+    background-color: $fifth-blue;
+    .text-img-home{
+        position: absolute;
+        z-index: 1;
+        margin: 0 auto;
+        .title-home-container{
+            text-align: center;
+            h1{
+                color: $main-blue;
+                font: 3rem 'Anton', sans-serif;
+                font-weight: 400;
+                padding: 4rem .5rem 1rem .5rem;
+            }
+        }
+        .img-home-container{
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            img{
+                width: 80%;
+            }
+        }
+        .sub-title-home{
+            text-align: center;
+            p{
+                color: $white-f;
+                font: 1.5rem $main-font;
+                font-weight: 600;
+                padding: 0 1.25rem;
+                padding-top: 2rem;
+            }
+        }
+    }
+    .background-container{
+        width: 100vw;
+            .background-img{
+                width: 100vw;
+        
+            }
+        }
+}
+
+}

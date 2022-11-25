@@ -46,6 +46,37 @@
             }
         }
     }
+
+    .video-container{
+        background-color: $white-f;
+        .title-video{
+            font: 1.5rem $main-font;
+            font-weight: 600;
+            color: $fifth-blue;
+            text-align: center;
+            padding: 6rem 2rem 4rem 2rem;
+        }
+        .video-container{
+            display: flex;
+            justify-content: center;
+            .video{
+                width: 90vw;
+                height: 90vh;
+                border-radius: 1rem;
+                margin-bottom: 4rem;
+            }
+            
+        }
+        .video-text{
+            text-align: center;
+            font: 1rem $main-font;
+            color: $black-0;
+            font-weight: 600;
+            padding: 1rem 2rem 6rem 2rem;
+        }
+        
+    }
+
     .feedback-container{
         background-color: $fifth-blue;
         p{
@@ -56,4 +87,235 @@
             color: $white-f;
         }
     }
+}
+
+
+@media only screen and (min-width: 500px){
+    .resultados-section{
+        background-color: $fifth-blue;
+        .resultados-title{
+            font-size: 4rem;
+        }
+        .carrosel-container{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 8rem;
+        
+            .swiper{
+                .swiper-button-prev, .swiper-button-next{
+                    display: none;
+                }
+    
+                
+    
+                .swiper-wrapper{
+                    .swiper-slide{
+                        img{
+                            width: 35vw;
+                            margin-bottom: 4rem;
+                        }
+                    }
+                }
+    
+                .swiper-pagination{
+                    position: inherit;
+                    bottom: 2rem;
+                }
+            }
+        }
+        .video-container{
+            background-color: $white-f;
+            .title-video{
+                font: 2rem $main-font;
+                font-weight: 600;
+                color: $fifth-blue;
+                text-align: center;
+                padding: 6rem 2rem 4rem 2rem;
+            }
+            .video-container{
+                display: flex;
+                justify-content: center;
+                .video{
+                    width: 70vw;
+                    height: 80vh;
+                    border-radius: 1rem;
+                    margin-bottom: 4rem;
+                }
+                
+            }
+            .video-text{
+                text-align: center;
+                font: 1rem $main-font;
+                color: $black-0;
+                font-weight: 600;
+                padding: 1rem 4rem 6rem 4rem;
+            }
+            
+        }
+    
+        .feedback-container{
+            background-color: $fifth-blue;
+            p{
+                text-align: center;
+                padding: 6rem 3rem 6rem 3rem;
+                font: 2rem $main-font;
+                font-weight: 600;
+                color: $white-f;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .resultados-section{
+        background-color: $fifth-blue;
+        .resultados-title{
+            font-size: 4rem;
+        }
+        .carrosel-container{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 8rem;
+        
+            .swiper{
+                
+                .swiper-button-prev, .swiper-button-next{
+                    display: none;
+                }
+    
+                
+    
+                .swiper-wrapper{
+                    .swiper-slide{
+                        img{
+                            width: 35vw;
+                            margin-bottom: 4rem;
+                        }
+                    }
+                }
+    
+                .swiper-pagination{
+                    position: inherit;
+                    bottom: 2rem;
+                }
+            }
+        }
+        .video-container{
+            background-color: $white-f;
+            .title-video{
+                font: 2rem $main-font;
+                font-weight: 600;
+                color: $fifth-blue;
+                text-align: center;
+                padding: 6rem 2rem 4rem 2rem;
+            }
+            .video-container{
+                display: flex;
+                justify-content: center;
+                .video{
+                width: 50vw;
+                height: 90vh;
+                border-radius: 1rem;
+                margin-bottom: 4rem;
+                }
+                
+            }
+            .video-text{
+                text-align: center;
+                font: 1rem $main-font;
+                color: $black-0;
+                font-weight: 600;
+                padding: 1rem 18rem 6rem 18rem;
+            }
+            
+        }
+    
+        .feedback-container{
+            background-color: $fifth-blue;
+            p{
+                text-align: center;
+                padding: 6rem 3rem 6rem 3rem;
+                font: 2rem $main-font;
+                font-weight: 600;
+                color: $white-f;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1300px){
+.resultados-section{
+    background-color: $fifth-blue;
+    .resultados-title{
+        font-size: 4rem;
+    }
+    .carrosel-container{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 8rem;
+    
+        .swiper{
+            .swiper-button-prev, .swiper-button-next{
+                display: none;
+            }
+
+            
+
+            .swiper-wrapper{
+                .swiper-slide{
+                    img{
+                        width: 25vw;
+                        margin-bottom: 4rem;
+                    }
+                }
+            }
+
+            .swiper-pagination{
+                position: inherit;
+                bottom: 2rem;
+            }
+        }
+    }
+    .video-container{
+        background-color: $white-f;
+        .title-video{
+            font: 2rem $main-font;
+            font-weight: 600;
+            color: $fifth-blue;
+            text-align: center;
+            padding: 6rem 2rem 4rem 2rem;
+        }
+        .video-container{
+            display: flex;
+            justify-content: center;
+            .video{
+                width: 27vw;
+                height: 90vh;
+                border-radius: 1rem;
+                margin-bottom: 4rem;
+            }
+            
+        }
+        .video-text{
+            text-align: center;
+            font: 1rem $main-font;
+            color: $black-0;
+            font-weight: 600;
+            padding: 1rem 18rem 6rem 18rem;
+        }
+        
+    }
+
+    .feedback-container{
+        background-color: $fifth-blue;
+        p{
+            text-align: center;
+            padding: 6rem 3rem 6rem 3rem;
+            font: 2rem $main-font;
+            font-weight: 600;
+            color: $white-f;
+        }
+    }
+}
 }

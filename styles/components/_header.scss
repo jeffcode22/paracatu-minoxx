@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+.header-desktop{
+  display: none;
+}
+
 .zap-zap{
   z-index: 3;
   position: fixed;
@@ -63,4 +67,194 @@ header .entrega-container {
   height: 1.375rem;
   font: 1rem "Poppins", sans-serif;
   font-weight: 700;
+}
+
+
+
+@media only screen and (min-width: 992px){
+  .header, .home-section{
+    display: none;
+  }
+
+  .header-desktop{
+    display: block;
+    nav{ 
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: $fifth-blue;
+      height: 10vh;
+      padding: 0 2rem 0 2rem;
+      div{
+          img{
+            cursor: pointer;
+            width: 6rem;
+          }
+        }
+      ul{
+          display: flex;
+          
+          li{
+            padding-left: 4.5rem;
+            // padding-right: 3rem;
+            align-items: center;
+            font: 1rem $main-font;
+            font-weight: 600;
+
+            .a-home-desk{
+              color: $main-blue;
+            }
+            a{
+              color: $white-f;
+              &:hover{
+                border-bottom: 2px solid $main-blue;
+                transition: .5s;
+              }
+            }
+          }
+        }
+    }
+
+    .entrega-container-desk{
+      background-color: $forth-blue;
+      color: $white-f;
+      font: 1rem $main-font;
+      font-weight: 500;
+      text-align: center;
+    }
+  } 
+
+  .bg-container-desk{
+    border-bottom: 1px solid $second-blue;
+    .bg-gradient-negao-desk{
+      display: flex;
+      .gradient-desk{
+        width: 50vw;
+              background: rgb(14,48,97);
+      background: linear-gradient(180deg, rgba(14,48,97,1) 6%, rgba(45,69,102,1) 80%);
+      }
+      img{
+        width: 50vw;
+      }
+    }
+    .img-title-container-desk{
+      padding: 4rem 2rem;
+      position: absolute;
+      z-index: 2;
+      display: flex;
+      justify-content: space-between;
+      width: 92vw;
+      .img-container-desk{
+        img{
+          width: 30vw;
+        }
+      }
+      .text-container-desk{
+        text-align: right;
+        h1{
+          font: 5rem $home-title;
+          color: $main-blue;
+          font-weight: 400;
+        }
+        p{
+          font: 1.5rem $main-font;
+          color: $white-f;
+          font-weight: 600;
+        }
+      }
+    }
+  } 
+
+}
+
+@media only screen and (min-width: 1300px){
+  .header, .home-section{
+    display: none;
+  }
+
+  .header-desktop{
+    display: block;
+    nav{ 
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: $fifth-blue;
+      height: 10vh;
+      padding: 0 2rem 0 2rem;
+      div{
+          img{
+            cursor: pointer;
+            width: 6rem;
+          }
+        }
+      ul{
+          display: flex;
+          li{
+            padding-left: 7rem;
+            font: 1.25rem $main-font;
+            font-weight: 600;
+
+            .a-home-desk{
+              color: $main-blue;
+            }
+            a{
+              color: $white-f;
+              &:hover{
+                border-bottom: 2px solid $main-blue;
+                transition: .5s;
+              }
+            }
+          }
+        }
+    }
+
+    .entrega-container-desk{
+      background-color: $forth-blue;
+      color: $white-f;
+      font: 1.25rem $main-font;
+      font-weight: 500;
+      text-align: center;
+    }
+  } 
+
+  .bg-container-desk{
+    border-bottom: 2px solid $second-blue;
+    .bg-gradient-negao-desk{
+      display: flex;
+      .gradient-desk{
+        width: 50vw;
+              background: rgb(14,48,97);
+      background: linear-gradient(180deg, rgba(14,48,97,1) 6%, rgba(45,69,102,1) 80%);
+      }
+      img{
+        width: 50vw;
+      }
+    }
+    .img-title-container-desk{
+      padding: 4rem 2rem;
+      position: absolute;
+      z-index: 2;
+      display: flex;
+      justify-content: space-between;
+      width: 92vw;
+      .img-container-desk{
+        img{
+          width: 30vw;
+        }
+      }
+      .text-container-desk{
+        text-align: right;
+        h1{
+          font: 6rem $home-title;
+          color: $main-blue;
+          font-weight: 400;
+        }
+        p{
+          font: 2.5rem $main-font;
+          color: $white-f;
+          font-weight: 600;
+        }
+      }
+    }
+  } 
 }

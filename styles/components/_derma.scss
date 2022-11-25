@@ -54,6 +54,9 @@
         li{
             padding: 1.5rem 2rem 1.5rem 2rem ;
         }
+        li:nth-child(even){
+            color: $third-blue;
+        }
     }
     .alguma-duvida{
         font: 1.5rem $main-font;
@@ -82,5 +85,321 @@
             font-weight: 600;
             color: $main-blue;
         }
+    }
+}
+
+
+@media only screen and (min-width: 500px){
+    .dermaroller-section{
+        .derma-bg{
+            background: linear-gradient(90deg, rgba(45,69,102,1) 0%, rgba(100,164,255,1) 86%);
+            height: 1.5rem;
+            z-index: 2;
+        }
+        .derma-title{
+            font: 3rem $main-font;
+            color: $fifth-blue;
+            font-weight: 700;
+            padding-top: 6rem;
+            text-align: center;
+        }
+        .derma-subtitle{
+            padding: 1rem .5rem 6rem .5rem;
+            color: $second-blue;
+            font: 1.5rem $main-font;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        .derma-container-1, .derma-container-2{
+            display: block;
+            align-items: center;
+            justify-content: center;
+            padding: 0 6rem 6rem 6rem ;
+            margin: 0 auto;
+            .img-derma-container{
+                display: flex;
+                justify-content: center;
+                
+                img{
+                    width: 20rem;
+                
+                }
+            }
+            .text-derma{
+                text-align: center;
+                font: 1.25rem $main-font;
+    
+                font-weight: 400;
+            }
+        }
+        .gradient-line{
+            height: .5rem;
+            width: 33.3vw;
+            background: linear-gradient(269.84deg, #2072E6 27.23%, #2D4566 63.87%);
+            margin: auto;
+            margin-top: 6rem;
+            border-radius: .2rem;
+        }
+        .cm-derma-title{
+            color: $second-blue;
+            font: 2.5rem $main-font;
+            font-weight: 600;
+            text-align: center;
+            padding: 2rem 0rem 3rem 0rem ;
+        }
+        ul{
+            font: 1.25rem $main-font;
+            font-weight: 500;
+            line-height: 1.5rem;
+            text-align: center;
+            li{
+                padding: 1rem 6rem 1rem 6rem ;
+            }
+            li:nth-child(even){
+                color: $third-blue;
+            }
+        }
+        .alguma-duvida{
+            font: 2rem $main-font;
+            font-weight: 600;
+            color: $second-blue;
+            text-align: center;
+            padding: 5rem 0 2rem 0;
+        }
+        .alguma-duvida-text{
+            font: 1.25rem $main-font;
+            font-weight: 500;
+            text-align: center;
+            padding: 0 6rem;
+        }
+        .box-zap-container{
+            width: 24rem;
+            height: 4rem;
+            background-color: $fifth-blue;
+            border-radius: .5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 4rem auto 8rem auto;
+            .box-zap-text{
+                font: 1.25rem $main-font;
+                font-weight: 600;
+                color: $main-blue;
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (min-width: 993px){
+    .dermaroller-section{
+        .derma-bg{
+            background: linear-gradient(90deg, rgba(45,69,102,1) 0%, rgba(100,164,255,1) 86%);
+            height: 1.5rem;
+            z-index: 2;
+        }
+        .derma-title{
+            font: 4rem $main-font;
+            color: $fifth-blue;
+            font-weight: 700;
+            padding-top: 6rem;
+            text-align: center;
+        }
+        .derma-subtitle{
+            padding: 1rem .5rem 6rem .5rem;
+            color: $second-blue;
+            font: 1.5rem $main-font;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        .derma-container-1, .derma-container-2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 6rem 6rem 6rem ;
+            .img-derma-container{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 25vw;
+                }
+            }
+            .text-derma{
+                text-align: center;
+                font: 1.25rem $main-font;
+    
+                font-weight: 400;
+            }
+        }
+        .derma-container-2{
+            flex-direction: row-reverse;
+        }
+        .gradient-line{
+            height: .5rem;
+            width: 20vw;
+            background: linear-gradient(269.84deg, #2072E6 27.23%, #2D4566 63.87%);
+            margin: auto;
+            margin-top: 6rem;
+            border-radius: .2rem;
+        }
+        .cm-derma-title{
+            color: $second-blue;
+            font: 2.5rem $main-font;
+            font-weight: 600;
+            text-align: center;
+            padding: 2rem 0rem 3rem 0rem ;
+        }
+        ul{
+            font: 1.25rem $main-font;
+            font-weight: 500;
+            line-height: 1.5rem;
+            text-align: center;
+            li{
+                padding: 1rem 16rem 1rem 16rem ;
+            }
+            li:nth-child(even){
+                color: $third-blue;
+            }
+        }
+        .alguma-duvida{
+            font: 2rem $main-font;
+            font-weight: 600;
+            color: $second-blue;
+            text-align: center;
+            padding: 5rem 0 2rem 0;
+        }
+        .alguma-duvida-text{
+            font: 1.25rem $main-font;
+            font-weight: 500;
+            text-align: center;
+            padding: 0 16rem;
+        }
+        .box-zap-container{
+            width: 40vw;
+            height: 4rem;
+            background-color: $fifth-blue;
+            border-radius: .5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 4rem auto 8rem auto;
+            .box-zap-text{
+                font: 1.5rem $main-font;
+                font-weight: 600;
+                color: $main-blue;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1300px){
+    .dermaroller-section{
+        .derma-bg{
+            background: linear-gradient(90deg, rgba(45,69,102,1) 0%, rgba(100,164,255,1) 86%);
+            height: 1.5rem;
+            z-index: 2;
+        }
+        .derma-title{
+            font: 4rem $main-font;
+            color: $fifth-blue;
+            font-weight: 700;
+            padding-top: 6rem;
+            text-align: center;
+        }
+        .derma-subtitle{
+            padding: 1rem .5rem 6rem .5rem;
+            color: $second-blue;
+            font: 1.5rem $main-font;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        .derma-container-1, .derma-container-2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 6rem 6rem 6rem ;
+            .img-derma-container{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 20rem;
+                }
+            }
+            .text-derma{
+                text-align: center;
+                font: 1.25rem $main-font;
+    
+                font-weight: 400;
+            }
+        }
+        .derma-container-2{
+            flex-direction: row-reverse;
+        }
+        .gradient-line{
+            height: .5rem;
+            width: 20vw;
+            background: linear-gradient(269.84deg, #2072E6 27.23%, #2D4566 63.87%);
+            margin: auto;
+            margin-top: 6rem;
+            border-radius: .2rem;
+        }
+        .cm-derma-title{
+            color: $second-blue;
+            font: 2.5rem $main-font;
+            font-weight: 600;
+            text-align: center;
+            padding: 2rem 0rem 3rem 0rem ;
+        }
+        ul{
+            font: 1.25rem $main-font;
+            font-weight: 500;
+            line-height: 1.5rem;
+            text-align: center;
+            li{
+                padding: 1rem 16rem 1rem 16rem ;
+            }
+            li:nth-child(even){
+                color: $third-blue;
+            }
+        }
+        .alguma-duvida{
+            font: 2rem $main-font;
+            font-weight: 600;
+            color: $second-blue;
+            text-align: center;
+            padding: 5rem 0 2rem 0;
+        }
+        .alguma-duvida-text{
+            font: 1.25rem $main-font;
+            font-weight: 500;
+            text-align: center;
+            padding: 0 16rem;
+        }
+        .box-zap-container{
+            cursor: pointer;
+            width: 25vw;
+            height: 4rem;
+            background-color: $fifth-blue;
+            border-radius: .5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 4rem auto 8rem auto;
+            &:hover{
+                transition: .5;
+                width: 25.2vw;
+            }
+            .box-zap-text{
+                font: 1.5rem $main-font;
+                font-weight: 600;
+                color: $main-blue;
+            }
+        }
+        
     }
 }

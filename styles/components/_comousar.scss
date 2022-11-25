@@ -37,17 +37,27 @@
 
     .cm-text-container{
         text-align: center;
-        padding: 2rem 1.5rem 4rem 1.5rem;
         color: $black-0;
-        font: 1rem $main-font;
+        font: 1.25rem $main-font;
         font-weight: 400;
-        .cm-text-1{
-            padding-bottom: 1rem;
+        .cm-1-container{
+            .cm-text-1{
+                padding: 2rem 2rem 4rem 2rem;
+            }
         }
-        .cm-text-2{
-            padding-bottom: 1rem;
+        .cm-2-container{
+            .cm-text-2{
+                padding: 2rem 2rem 4rem 2rem;
+            }
+        }
+        .cm-3-container{
+            .cm-text-3{
+                padding: 2rem 2rem 4rem 2rem;
+            }
         }
     }
+
+
     .cm-subtitle-2{
         font: 1.75rem $main-font;
         font-weight: 600;
@@ -59,5 +69,249 @@
         font-weight: 600;
         padding: 1rem 1rem 8rem 1rem;
         text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 500px){
+    .como-usar-section{
+        background-color: $white-f;
+        .title-cm-container{
+            text-align: center;
+            .cm-bg{
+                background: rgb(100,164,255);
+                background: linear-gradient(97deg, rgba(100,164,255,1) 0%, rgba(45,69,102,1) 77%);
+                height: 1.5rem;
+            }
+            .cm-title{
+                color: $fifth-blue;
+                font: 3rem $main-font;
+                font-weight: 700;
+                padding-top: 6rem;
+            }
+            .cm-subtitle{
+                color: $second-blue;
+                font: 2rem $main-font;
+                padding: 1rem 0 4rem 0;
+                font-weight: 600;
+            }
+        }
+        .cm-img{
+            display: flex;
+        img{
+            margin: 0 auto;
+            padding-bottom: 1rem;
+            width: 50vw;
+            }
+        }
+    
+        .cm-text-container{
+            .cm-1-container{
+                .cm-text-1{
+                    padding: 2rem 2rem 3rem 2rem;
+                }
+            }
+            text-align: center;
+            padding: 3rem 6rem 4rem 6rem;
+            color: $black-0;
+            font: 1.25rem $main-font;
+            font-weight: 400;
+            .cm-text-1{
+                padding-bottom: 1rem;
+            }
+            .cm-text-2{
+                padding-bottom: 1rem;
+            }
+        }
+        .cm-subtitle-2{
+            font: 1.75rem $main-font;
+            font-weight: 600;
+            color: $second-blue;
+            text-align: center;
+        }
+        .cm-subtitle-3{
+            font: 1.25rem $main-font;
+            font-weight: 600;
+            padding: 1rem 6rem 8rem 6rem;
+            text-align: center;
+        }
+    }
+}
+
+
+
+@media only screen and (min-width: 994px){
+    .como-usar-section{
+        background-color: $white-f;
+        .title-cm-container{
+            text-align: center;
+            .cm-bg{
+                background: rgb(100,164,255);
+                background: linear-gradient(97deg, rgba(100,164,255,1) 0%, rgba(45,69,102,1) 77%);
+                height: 1.5rem;
+            }
+            .cm-title{
+                color: $fifth-blue;
+                font: 4rem $main-font;
+                font-weight: 700;
+                padding-top: 6rem;
+            }
+            .cm-subtitle{
+                color: $second-blue;
+                font: 2rem $main-font;
+                padding: 1rem 0 4rem 0;
+                font-weight: 600;
+            }
+        }
+        .cm-img{
+            display: flex;
+        img{
+            margin: 0 auto;
+            padding-bottom: 1rem;
+            width: 50vw;
+            }
+        }
+    
+        
+    
+        .cm-text-container{
+            text-align: center;
+            color: $black-0;
+            font: 1.25rem $main-font;
+            font-weight: 400;
+            .cm-1-container{
+                display: flex;
+                align-items: center;
+                padding: 2rem 0rem 4rem 0rem;
+                img{
+                    width: 24rem;
+                }
+            }
+            .cm-2-container{
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
+                padding: 2rem 0rem 4rem 0rem;
+                img{
+                    width: 24rem;
+                }
+            }
+            .cm-3-container{
+                display: flex;
+                align-items: center;
+                padding: 2rem 0rem 4rem 0rem;
+                img{
+                    width: 24rem;
+                }
+    
+            }
+        }
+    
+        .cm-subtitle-2{
+            font: 1.75rem $main-font;
+            font-weight: 600;
+            color: $second-blue;
+            text-align: center;
+        }
+        .cm-subtitle-3{
+            font: 1.25rem $main-font;
+            font-weight: 600;
+            padding: 1rem 16rem 8rem 16rem;
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px){
+    .como-usar-section{
+        background-color: $white-f;
+        .title-cm-container{
+            text-align: center;
+            .cm-bg{
+                background: rgb(100,164,255);
+                background: linear-gradient(97deg, rgba(100,164,255,1) 0%, rgba(45,69,102,1) 77%);
+                height: 1.5rem;
+            }
+            .cm-title{
+                color: $fifth-blue;
+                font: 4rem $main-font;
+                font-weight: 700;
+                padding-top: 6rem;
+            }
+            .cm-subtitle{
+                color: $second-blue;
+                font: 2rem $main-font;
+                padding: 1rem 0 4rem 0;
+                font-weight: 600;
+            }
+        }
+        .cm-img{
+            display: flex;
+        img{
+            margin: 0 auto;
+            padding-bottom: 1rem;
+            width: 25vw;
+            }
+        }
+    
+        .p-kirk-container{
+            text-align: center;
+            font: 1rem $main-font;
+            font-weight: 700;
+            color: $third-blue;
+        }
+    
+        .cm-text-container{
+            text-align: center;
+            color: $black-0;
+            font: 1.25rem $main-font;
+            font-weight: 400;
+            .cm-1-container{
+                display: flex;
+                align-items: center;
+                padding: 2rem 0rem 6rem 0rem;
+                img{
+                    width: 24rem;
+                }
+                .cm-text-1{
+                    padding-right: 4rem;
+                }
+            }
+            .cm-2-container{
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
+                padding: 2rem 0rem 4rem 0rem;
+                img{
+                    width: 24rem;
+                }
+                .cm-text-2{
+                    padding-left: 8rem;
+                }
+            }
+            .cm-3-container{
+                display: flex;
+                align-items: center;
+                padding: 2rem 0rem 4rem 0rem;
+                img{
+                    width: 24rem;
+                }
+                .cm-text-3{
+                    padding-right: 3rem;
+                }
+            }
+        }
+        .cm-subtitle-2{
+            font: 1.75rem $main-font;
+            font-weight: 600;
+            color: $second-blue;
+            text-align: center;
+        }
+        .cm-subtitle-3{
+            font: 1.25rem $main-font;
+            font-weight: 600;
+            padding: 1rem 16rem 8rem 16rem;
+            text-align: center;
+        }
     }
 }
